@@ -17,3 +17,31 @@ a = 4.23E10
 print(a)
 a = 4.24e-10
 print(a)
+
+# 복소수
+a = 1 + 2j
+print(a)
+b = 3 - 4j
+print(b)
+
+# 복소수.real
+a = 1 + 2j
+print(a)
+print(a.real)
+
+# 복소수.imag
+a = 1 + 2j
+print(a)
+print(a.imag)
+
+# 복소수.conjugate
+a = 1 + 2j
+print(a.conjugate())
+print(abs(a))
+
+# 사칙연산
+a = 3
+b = 4
+print(a + b)
+print(a * b)
+print(a / b)
