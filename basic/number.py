@@ -45,3 +45,12 @@ b = 4
 print(a + b)
 print(a * b)
 print(a / b)
+
+# x의 y제곱을 나타내는 **연산자
+
+a = 3
+b = 4
+print(a ** b)
+
+#나눗셈 후 나머지를 반환하는 % 연산자
+
