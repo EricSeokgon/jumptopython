@@ -25,3 +25,15 @@ food = 'Python\'s favorite food is perl'
 say = "\"Python is very easy.\" he says."
 print(food)
 print(say)
+
+# 여러 줄인 문자열을 변수에 대입하고 싶을 때
+multiline = '''
+Life is too short
+You need python
+'''
+print(multiline)
+multiline = """
+Life is too short
+You need python
+"""
+print(multiline)
