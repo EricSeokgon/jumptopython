@@ -37,3 +37,4 @@ print(a + b)
 # 2.리스트 반복하기(*)
 a = [1, 2, 3]
 print(a * 3)
+print(str(a[2]) + "hi")
