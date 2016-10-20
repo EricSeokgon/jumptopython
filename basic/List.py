@@ -53,3 +53,8 @@ print(a)
 # 4.del함수 사용해 리스트 요소 삭제하기
 del a[1]
 print(a)
+# 리스트 관련 함수들
+# 리스트에 요소 추가(append)
+a = [1, 2, 3]
+a.append(4)
+print(a)
