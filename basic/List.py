@@ -75,3 +75,9 @@ print(a)
 a = [1, 2, 3]
 print(a.index(3))
 print(a.index(1))
+# 리스트에 요소 삽입(insert)
+a = [1, 2, 3]
+a.insert(0, 4)
+print(a)
+a.insert(3, 5)
+print(a)
