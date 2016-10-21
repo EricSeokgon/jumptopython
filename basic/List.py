@@ -85,3 +85,7 @@ print(a)
 a = [1, 2, 3, 1, 2, 3]
 a.remove(3)
 print(a)
+# 리스트 요소 끄집어내기(pop)
+a = [1, 2, 3]
+a.pop()
+print(a)
