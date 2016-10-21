@@ -64,4 +64,7 @@ print(a)
 a = [1, 4, 3, 2]
 a.sort()
 print(a)
+a = ['a', 'd', 'c', 'b']
+a.sort()
+print(a)
 
