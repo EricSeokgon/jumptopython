@@ -43,7 +43,7 @@ print(str(a[2]) + "hi")
 a = [1, 2, 3]
 a[2] = 4
 print(a)
-# 2.이스트에서 연속된 범위의 값 수정하기
+# 2.리스트에서 연속된 범위의 값 수정하기
 print(a[1:2])
 a[1:2] = ['a', 'b', 'c']
 print(a)
@@ -57,4 +57,6 @@ print(a)
 # 리스트에 요소 추가(append)
 a = [1, 2, 3]
 a.append(4)
+print(a)
+a.append([5, 6])
 print(a)
