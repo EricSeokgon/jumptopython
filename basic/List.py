@@ -81,3 +81,7 @@ a.insert(0, 4)
 print(a)
 a.insert(3, 5)
 print(a)
+# 리스트 요소 제거(remove)
+a = [1, 2, 3, 1, 2, 3]
+a.remove(3)
+print(a)
