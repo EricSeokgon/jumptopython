@@ -99,3 +99,5 @@ print(a.count(1))
 a = [1, 2, 3]
 a.extend([4, 5])
 print(a)
+a.extend([6, 7])
+print(a)
