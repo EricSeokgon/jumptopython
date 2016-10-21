@@ -60,3 +60,8 @@ a.append(4)
 print(a)
 a.append([5, 6])
 print(a)
+# 리스트 정렬(sort)
+a = [1, 4, 3, 2]
+a.sort()
+print(a)
+
