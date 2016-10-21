@@ -71,3 +71,6 @@ print(a)
 a = ['a', 'b', 'c']
 a.reverse()
 print(a)
+# 위치 변환(iondex)
+a = [1, 2, 3]
+print(a.index(3))
