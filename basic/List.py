@@ -67,4 +67,7 @@ print(a)
 a = ['a', 'd', 'c', 'b']
 a.sort()
 print(a)
-
+# 리스트 뒤집기(reverse)
+a = ['a', 'b', 'c']
+a.reverse()
+print(a)
