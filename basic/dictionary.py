@@ -33,3 +33,6 @@ print(list(a.keys()))
 
 # Value 리스트 만들기 (values)
 print(a.values())
+
+# Key:Value 쌍 모두 지우기( clear)
+print(a.clear())
