@@ -17,3 +17,7 @@ print(grade['julliet'])
 a = {1: 'a', 2: 'b'}
 print(a[1])
 print(a[2])
+dic = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+print(dic['name'])
+print(dic['phone'])
+print(dic['birth'])
