@@ -21,3 +21,8 @@ dic = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
 print(dic['name'])
 print(dic['phone'])
 print(dic['birth'])
+
+# 딕셔너리 관련 함수들
+# Key 리스트 만들기(Keys)
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+print(a.keys())
