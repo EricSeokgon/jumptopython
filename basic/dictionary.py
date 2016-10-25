@@ -29,3 +29,4 @@ print(a.keys())
 
 for k in a.keys():
     print(k)
+print(list(a.keys()))
