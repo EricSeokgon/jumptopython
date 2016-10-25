@@ -44,3 +44,8 @@ print(a.clear())
 a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
 print(a.get('name'))
 print(a.get('phone'))
+
+# 해당 Key가 딕셔너리 안에 있는지 조사하기(in)
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+print('name' in a)
+print('email' in a)
