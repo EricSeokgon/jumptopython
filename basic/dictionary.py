@@ -26,3 +26,6 @@ print(dic['birth'])
 # Key 리스트 만들기(Keys)
 a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
 print(a.keys())
+
+for k in a.keys():
+    print(k)
