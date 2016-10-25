@@ -9,3 +9,8 @@ print(a)
 # 딕셔너리 요소 삭제하기
 del a[1]
 print(a)
+# 딕셔너리를 사용하는 방법
+# 딕셔너리에서 key사용해 Value얻기
+grade = {'pey': 10, 'julliet': 99}
+print(grade['pey'])
+print(grade['julliet'])
