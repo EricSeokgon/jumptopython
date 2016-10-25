@@ -39,3 +39,8 @@ print(a.items())
 
 # Key:Value 쌍 모두 지우기( clear)
 print(a.clear())
+
+# Key로 Value 얻기(get)
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+print(a.get('name'))
+print(a.get('phone'))
