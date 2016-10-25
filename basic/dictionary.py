@@ -30,3 +30,6 @@ print(a.keys())
 for k in a.keys():
     print(k)
 print(list(a.keys()))
+
+# Value 리스트 만들기 (values)
+print(a.values())
