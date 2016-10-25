@@ -14,3 +14,6 @@ print(a)
 grade = {'pey': 10, 'julliet': 99}
 print(grade['pey'])
 print(grade['julliet'])
+a = {1: 'a', 2: 'b'}
+print(a[1])
+print(a[2])
