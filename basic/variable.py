@@ -8,3 +8,15 @@ print(type(3))
 a = 3
 b = 3
 print(a is b)
+
+# 변수를 만드는 여러 가지 방법
+a, b = ('python', 'life')
+(a, b) = 'python', 'life'
+[a, b] = ['python', 'life']
+a = b = 'python'
+
+a = 3
+b = 5
+a, b = b, a
+print(a)
+print(b)
