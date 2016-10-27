@@ -20,3 +20,10 @@ b = 5
 a, b = b, a
 print(a)
 print(b)
+
+# 메모리에 생성된 변수 없애기
+
+a = 3
+b = 3
+del (a)
+del (b)
