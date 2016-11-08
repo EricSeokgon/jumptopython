@@ -31,3 +31,11 @@ if 조건문:
 수행할 문장2
     수행할 문장3
 '''
+'''
+if money:
+        print("택시를")
+    print("타고")
+File "<stdin>", line
+print("타고")
+'''
+
