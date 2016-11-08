@@ -80,3 +80,28 @@ if 'money' in pocket:
     print("택시를 타고가라")
 else:
     print("걸어가라")
+
+'''
+주머니에 돈이 있으면 가만히 있고, 주머니에 돈이 없으면 카드를 꺼내라
+'''
+
+pocket = ['paper', 'cellphone', 'money']
+if 'money' in pocket:
+    pass
+else:
+    print("카드를 꺼내라")
+
+'''
+주머니에 돈이 있으면 택시를 타고, 주머니에 돈은 없지만 카드가 있으면 택시를 타고,
+돈도 없고 카드도 없으면 걸어 가라
+'''
+
+pocket = ['paper', 'handphone']
+card = 1
+if 'money' in pocket:
+    print("택시를 타고 가라")
+else:
+    if card:
+        print("택시를 타고 가라")
+    else:
+        print("걸어가라")
