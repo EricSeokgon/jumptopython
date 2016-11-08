@@ -70,3 +70,13 @@ print(1 in [1, 2, 3])
 print(1 not in [1, 2, 3])
 print('a' in ('a', 'b', 'c'))
 print('j' not in 'python')
+
+'''
+만약 주머니에 돈이 있으면 택시를 타고, 없으면 걸어 가라
+'''
+
+pocket = ['paper', 'cellphone', 'money']
+if 'money' in pocket:
+    print("택시를 타고가라")
+else:
+    print("걸어가라")
