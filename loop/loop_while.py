@@ -58,3 +58,20 @@ while True:
         if not coffee:
             print("커피가 다 떨어졌습니다. 판매를 중지 합니다.")
             break
+
+# 조건에 맞지 않은 경우 맨 처음으로 돌아가기
+a = 10
+while a < 10:
+    a = a + 1
+    if a % 2 == 0: continue
+    print(a)
+
+#무한 루프
+'''
+while True:
+    수행할 문장1
+    수행할 문장2
+'''
+
+
+
