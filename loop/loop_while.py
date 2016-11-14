@@ -16,3 +16,24 @@ while treeHit < 10:
     print("나무를 %d번 찍었습니다." % treeHit)
     if treeHit == 10:
         print("나무 넘어갑니다.")
+
+'''
+prompt = ""
+1. add
+2. del
+3. list
+4. quit
+Enter number:""
+
+'''
+prompt = """""
+    1. add
+    2. del
+    3. list
+    4. quit
+    Enter number:"""
+
+number = 0
+while number != 4:
+    print(prompt)
+    number = int(input())
