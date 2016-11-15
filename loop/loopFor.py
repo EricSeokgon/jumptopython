@@ -52,7 +52,7 @@ print(a)
 sum = 0
 for i in range(1, 11):
     sum = sum + i
-    print(sum)
+print(sum)
 
 for number in range(len(marks)):
     if marks[number] < 60: continue
@@ -63,3 +63,10 @@ for i in range(2, 10):
     for j in range(1, 10):
         print(i * j, end=" ")
     print(" ")
+
+# 리스트 안에 for문 포함하기
+a = [1, 2, 3, 4]
+result = []
+for num in a:
+    result.append(num * 3)
+print(result)
