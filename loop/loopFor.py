@@ -34,3 +34,10 @@ for mark in marks:
         print("%d번 학생은 합격입니다." % number)
     else:
         print("%d번 학생은 불합격입니다." % number)
+
+# for문과 continue
+number = 0
+for mark in marks:
+    number = number + 1
+    if mark < 60: continue
+    print("%d번 학생 축하합니다. 합격입니다. " % number)
