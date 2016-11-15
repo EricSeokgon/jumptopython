@@ -45,3 +45,11 @@ for mark in marks:
 # for와 함계 자주 사용하는 range함수
 a = range(10)
 print(a)
+a = range(1, 11)
+print(a)
+
+# range 함수의 예시 살펴보기
+sum = 0
+for i in range(1, 11):
+    sum = sum + i
+    print(sum)
