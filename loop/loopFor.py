@@ -41,3 +41,7 @@ for mark in marks:
     number = number + 1
     if mark < 60: continue
     print("%d번 학생 축하합니다. 합격입니다. " % number)
+
+# for와 함계 자주 사용하는 range함수
+a = range(10)
+print(a)
