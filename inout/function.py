@@ -36,9 +36,16 @@ def sum(a, b):
 a = sum(3, 4)
 print(a)
 
+
 # 입력값이 없는 함수
 def say():
     return "Hi"
 
+
 a = say()
 print(a)
+
+
+# 결과값이 없는 함수
+def sum(a, b):
+    print("%d, %d의 합은 %d입니다." % (a, b, a + b))
