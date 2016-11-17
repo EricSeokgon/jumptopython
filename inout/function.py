@@ -35,3 +35,10 @@ def sum(a, b):
 
 a = sum(3, 4)
 print(a)
+
+# 입력값이 없는 함수
+def say():
+    return "Hi"
+
+a = say()
+print(a)
