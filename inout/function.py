@@ -41,6 +41,7 @@ print(a)
 def say():
     return "Hi"
 
+
 a = say()
 print(a)
 
@@ -48,14 +49,35 @@ print(a)
 # 결과값이 없는 함수
 def sum(a, b):
     print("%d, %d의 합은 %d입니다." % (a, b, a + b))
+
+
 sum(3, 4)
 
-a= sum(3,4)
+a = sum(3, 4)
 print(a)
+
 
 # 입력값도 결과값도 없는 함수
 def say():
     print("Hi")
+
+
 say()
 
+# 입력값이 몇 개가 될지 모를 때는 어떻게 해야 할까?
+
+'''
+def 함수이름(*입력변수):
+    <수행할 문장>
+    ...
+'''
+
+
+# 여러 개의 입력값을 받는 함수 만들기
+
+def sum_many(*args):
+    sum = 0
+    for i in args:
+        sum = sum + i
+    return sum
 
