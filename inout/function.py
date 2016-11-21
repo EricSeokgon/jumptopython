@@ -41,7 +41,6 @@ print(a)
 def say():
     return "Hi"
 
-
 a = say()
 print(a)
 
@@ -53,3 +52,10 @@ sum(3, 4)
 
 a= sum(3,4)
 print(a)
+
+# 입력값도 결과값도 없는 함수
+def say():
+    print("Hi")
+say()
+
+
