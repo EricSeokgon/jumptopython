@@ -105,3 +105,31 @@ result = sum_mul('sum', 1, 2, 3, 4, 5)
 print(result)
 result = sum_mul('mul', 1, 2, 3, 4, 5)
 print(result)
+
+
+# 함수의 결과값은 언제나 하나이다.
+def sum_and_mul(a, b):
+    return a + b, a * b
+
+
+result = sum_and_mul(3, 4)
+
+result = (7, 12)
+
+sum, mul = sum_and_mul(3, 4)
+
+
+def sum_and_mul(a, b):
+    return a + b
+    return a * b
+
+
+result = sum_and_mul(2, 3)
+print(result)
+
+
+def sum_and_mul(a, b):
+    return a + b
+
+
+#입력 인수에 초기값 미리 설정하기
