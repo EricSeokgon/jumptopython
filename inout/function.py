@@ -141,5 +141,16 @@ def say_myself(name, old, man=True):
     else:
         print("여자입니다.")
 
+
 say_myself("이석곤", 35)
 say_myself("이석곤", 35, False)
+
+#함수 안에서 선언된 변수의 효력 범위
+def vartest(hello):
+    hello = hello + 1
+
+
+def vertest(a):
+    a = a + 1
+vertest(3)
+print(a)
