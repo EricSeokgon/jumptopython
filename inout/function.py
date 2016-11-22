@@ -159,6 +159,7 @@ vertest(3)
 print(a)
 
 # 함수 안에서 함수 밖의 변수를 변경하는 방법
+# 1.return 이용하기
 a = 1
 
 
@@ -168,4 +169,17 @@ def vartest(a):
 
 
 a = vartest(a)
+print(a)
+
+# 2.gloval 명령어 이용하기
+
+a = 1
+
+
+def vartest():
+    global a
+    a = a + 1
+
+
+vartest()
 print(a)
