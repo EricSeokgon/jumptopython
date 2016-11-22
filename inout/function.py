@@ -162,11 +162,9 @@ print(a)
 # 1.return 이용하기
 a = 1
 
-
 def vartest(a):
     a = a + 1
     return a
-
 
 a = vartest(a)
 print(a)
@@ -175,11 +173,9 @@ print(a)
 
 a = 1
 
-
 def vartest():
     global a
     a = a + 1
-
 
 vartest()
 print(a)
