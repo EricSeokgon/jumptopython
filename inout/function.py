@@ -145,12 +145,27 @@ def say_myself(name, old, man=True):
 say_myself("이석곤", 35)
 say_myself("이석곤", 35, False)
 
-#함수 안에서 선언된 변수의 효력 범위
+
+# 함수 안에서 선언된 변수의 효력 범위
 def vartest(hello):
     hello = hello + 1
 
 
 def vertest(a):
     a = a + 1
+
+
 vertest(3)
+print(a)
+
+# 함수 안에서 함수 밖의 변수를 변경하는 방법
+a = 1
+
+
+def vartest(a):
+    a = a + 1
+    return a
+
+
+a = vartest(a)
 print(a)
