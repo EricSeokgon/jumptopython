@@ -44,3 +44,7 @@ print(multiline)
 head = "Python"
 tail = "is fun!"
 print(head + tail)
+
+# 2)문자열 곱하기
+a = "python"
+print(a * 2)
