@@ -1,4 +1,4 @@
-#02-2 문자열 자료형
+# 02-2 문자열 자료형
 # 1.큰따옴표로 양쪽 둘러싸기
 print("Hello World")
 
@@ -39,3 +39,8 @@ You need python
 """
 print(multiline)
 
+# 문자열 연산하기
+# 1)문자열 더해서 연결하기
+head = "Python"
+tail = "is fun!"
+print(head + tail)
