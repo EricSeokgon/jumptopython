@@ -49,8 +49,14 @@ print(head + tail)
 a = "python"
 print(a * 2)
 
-# 3)문자열 곱하기 응요
+# 3)문자열 곱하기 응용
 
 print("=" * 50)
 print("My Program")
 print("=" * 50)
+
+# 문자열 인데싱과 슬라이싱
+# 문자열 인덱싱이란?
+a = "Life is too short, you need Python"
+print(a[3])
+
