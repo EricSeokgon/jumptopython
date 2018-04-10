@@ -48,3 +48,9 @@ print(head + tail)
 # 2)문자열 곱하기
 a = "python"
 print(a * 2)
+
+# 3)문자열 곱하기 응요
+
+print("=" * 50)
+print("My Program")
+print("=" * 50)
