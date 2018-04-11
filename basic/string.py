@@ -91,3 +91,7 @@ print(weather)
 # "Pithon"이라는 문자열을 "Python"으로 바꾸려면?
 a = "Pithon"
 print(a[:1] + 'y' + a[2:])
+
+# 문자열 포매팅 따라하기
+# 1)숫자 바로 대입
+print("I eat %d apples." % 3)
