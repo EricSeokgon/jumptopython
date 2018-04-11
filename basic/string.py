@@ -74,10 +74,16 @@ print(b)
 a = "Life is too short, you need Python"
 print(a[0:4])
 
-
-#문자열을 슬라이싱하는 방법
+# 문자열을 슬라이싱하는 방법
 a = "Life is too short, you need Python"
 print(a[0:5])
 print(a[0:2])
 print(a[5:7])
 print(a[12:17])
+
+# 슬라이싱으로 문자열 나누기
+a = "20010331Rainy"
+date = a[:8]
+weather = a[8:]
+print(date)
+print(weather)
