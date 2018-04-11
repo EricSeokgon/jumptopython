@@ -70,3 +70,6 @@ print(a[-1])
 a = "Life is too short, you need Python"
 b = a[0] + a[1] + a[2] + a[3]
 print(b)
+
+a = "Life is too short, you need Python"
+print(a[0:4])
