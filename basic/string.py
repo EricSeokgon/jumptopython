@@ -87,3 +87,7 @@ date = a[:8]
 weather = a[8:]
 print(date)
 print(weather)
+
+# "Pithon"이라는 문자열을 "Python"으로 바꾸려면?
+a = "Pithon"
+print(a[:1] + 'y' + a[2:])
