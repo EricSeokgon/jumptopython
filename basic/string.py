@@ -60,10 +60,13 @@ print("=" * 50)
 a = "Life is too short, you need Python"
 print(a[3])
 
-#문자열 인덱싱 활용하기
+# 문자열 인덱싱 활용하기
 a = "Life is too short, you need Python"
 print(a[0])
 print(a[12])
 print(a[-1])
 
-
+# 문자열 슬라이싱이란?
+a = "Life is too short, you need Python"
+b = a[0] + a[1] + a[2] + a[3]
+print(b)
