@@ -95,3 +95,10 @@ print(a[:1] + 'y' + a[2:])
 # 문자열 포매팅 따라하기
 # 1)숫자 바로 대입
 print("I eat %d apples." % 3)
+
+# 2)문자열 바로 대입
+print("I eat %s apples." % "five")
+
+# 3)숫자 값을 나타내는 변수로 대입
+number = 3
+print("I eat %d apples." % number)
