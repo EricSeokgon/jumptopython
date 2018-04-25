@@ -29,12 +29,15 @@ else:
     
 '''
 
-money = 2000
+pocket = ['paper', 'cellphone']
 card = 1
-if money >= 3000 or card:
+if 'money' in pocket:
     print("택시를 타세요")
 else:
-    print("버스를 타세요")
+    if card:
+        print("택시를 타세요")
+    else:
+        print("버스를 타세요")
 
 print(1 in [1, 2, 3])
 print(1 not in [1, 2, 3])
