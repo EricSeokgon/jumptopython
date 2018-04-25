@@ -33,11 +33,10 @@ pocket = ['paper', 'cellphone']
 card = 1
 if 'money' in pocket:
     print("택시를 타세요")
+elif card:
+    print("택시를 타세요")
 else:
-    if card:
-        print("택시를 타세요")
-    else:
-        print("버스를 타세요")
+    print("버스를 타세요")
 
 print(1 in [1, 2, 3])
 print(1 not in [1, 2, 3])
