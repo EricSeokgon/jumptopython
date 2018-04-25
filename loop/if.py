@@ -30,7 +30,11 @@ else:
 '''
 
 money = 2000
-if money >= 3000:
+card = 1
+if money >= 3000 or card:
     print("택시를 타세요")
 else:
     print("버스를 타세요")
+
+print(1 in [1, 2, 3])
+print(1 not in [1, 2, 3])
